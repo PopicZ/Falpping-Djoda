@@ -32498,7 +32498,8 @@ cr.getObjectRefTable = function () {
 		cr.system_object.prototype.exps.random,
 		cr.plugins_.Sprite.prototype.exps.Y,
 		cr.plugins_.Text.prototype.acts.MoveToTop,
-		cr.plugins_.Button.prototype.cnds.OnClicked
+		cr.plugins_.Button.prototype.cnds.OnClicked,
+		cr.plugins_.Button.prototype.acts.SetCSSStyle
 	];
 };
 
